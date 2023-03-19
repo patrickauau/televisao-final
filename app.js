@@ -52,6 +52,12 @@ function desligar(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 }
 
@@ -110,6 +116,12 @@ function canal1(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 }
 
@@ -169,6 +181,12 @@ function canal2(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 }
 
@@ -206,6 +224,7 @@ function canal3(){
     let video1 = document.getElementById("importante")
     video1.pause()
     video1.currentTime = 0;
+    let video3 = document.getElementById("dengosa")
     video3.pause()
     video3.currentTime = 0;
     let video4 = document.getElementById("gokuteq")
@@ -226,6 +245,12 @@ function canal3(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 }
 
@@ -284,6 +309,12 @@ function canal4(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
     
 }
 
@@ -342,6 +373,12 @@ function canal5(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 }
 
@@ -400,6 +437,12 @@ function canal6(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 }
 
 function canal7(){
@@ -458,7 +501,12 @@ function canal7(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
-
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 }
 
@@ -519,6 +567,12 @@ function canal8(){
     video9.pause()
     video9.currentTime = 41;
 
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 }
 
 function canal9(){
@@ -576,6 +630,12 @@ function canal9(){
     let video9 = document.getElementById("mario")
     video9.pause()
     video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 
 }
@@ -634,6 +694,12 @@ function canal0(){
     let video8 = document.getElementById("donate")
     video8.pause()
     video8.currentTime = 0;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
 
 }
 
@@ -660,6 +726,72 @@ function netflox(){
     div8.style.visibility = 'hidden'
     let div9 = document.getElementById("mario")
     div9.style.visibility = 'hidden'
+    let video = document.getElementById("stylo")
+    video.pause();
+    video.currentTime = 0;
+    let video1 = document.getElementById("importante")
+    video1.pause()
+    video1.currentTime = 0;
+    let video2 = document.getElementById("videoBrabo1")
+    video2.pause()
+    video2.currentTime = 0;
+    let video3 = document.getElementById("dengosa")
+    video3.pause()
+    video3.currentTime = 0;
+    let video4 = document.getElementById("gokuteq")
+    video4.pause()
+    video4.currentTime = 0;
+    let video5 = document.getElementById("bolsonaro")
+    video5.pause()
+    video5.currentTime = 0;
+    let video6 = document.getElementById("pombo")
+    video6.pause()
+    video6.currentTime = 0;
+    let video7 = document.getElementById("will")
+    video7.pause()
+    video7.currentTime = 0;
+    let video8 = document.getElementById("donate")
+    video8.pause()
+    video8.currentTime = 0;
+    let video9 = document.getElementById("mario")
+    video9.pause()
+    video9.currentTime = 41;
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'hidden'
+    let chora = document.getElementById("chora")
+    chora.pause()
+    chora.currentTime = 0;
+    chora.style.visibility = 'hidden'
+}
+
+function styloaniversario(){
+    let chora = document.getElementById("chora")
+    chora.play()
+    chora.style.visibility = 'visible'
+    let confete = document.getElementById("confetti")
+    confete.style.visibility = 'visible'
+    let div = document.getElementById("stylo")
+    div.style.visibility = 'hidden'
+    let div1 = document.getElementById("importante")
+    div1.style.visibility = 'hidden'
+    let div2 = document.getElementById("videoBrabo1")
+    div2.style.visibility = 'hidden'
+    let div3 = document.getElementById("dengosa")
+    div3.style.visibility = 'hidden'
+    let div4 = document.getElementById("gokuteq")
+    div4.style.visibility = 'hidden'
+    let div5 = document.getElementById("bolsonaro")
+    div5.style.visibility = 'hidden'
+    let div6 = document.getElementById("pombo")
+    div6.style.visibility = 'hidden'
+    let div7 = document.getElementById("will")
+    div7.style.visibility = 'hidden'
+    let div8 = document.getElementById("donate")
+    div8.style.visibility = 'hidden'
+    let div9 = document.getElementById("mario")
+    div9.style.visibility = 'hidden'
+    let div10 = document.getElementById("net")
+    div10.style.visibility = 'hidden'
     let video = document.getElementById("stylo")
     video.pause();
     video.currentTime = 0;

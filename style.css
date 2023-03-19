@@ -1,5 +1,6 @@
 body{
     background-color: rgba(68, 68, 68, 0.308);
+    overflow: hidden;
 }
 
 .container{
@@ -12,6 +13,55 @@ body{
     background-color: rgb(26, 25, 25);
     z-index: 1;
     border-style: ridge;
+}
+
+.aniversario{
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    margin: -430px 325px;
+    border-radius: 10px;
+    border: 20px solid gray;
+    background-color: rgb(26, 25, 25);
+    border-style: ridge;
+}
+
+#stylo2{
+    position: absolute;
+    border-radius: 10px;
+    margin: 25px 355px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    background-image: url("stylofoto.png");
+    background-size: cover;
+    z-index: 1;
+}
+
+#confetti{
+    position: absolute;
+    background-image: url("confetti.gif");
+    width: 5425px;
+    height: 3240px;
+    margin: -150px -918px;
+    visibility: hidden;
+    z-index: -30;
+}
+
+#chora{
+    visibility: hidden;
+    position: absolute;
+    width: 430px;
+    height: 256px;
+    margin: -468.5px -620px;
+    z-index: -1;
+}
+
+#stylo2:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+    box-shadow: 1px 1px 1px 1px;
 }
 
 .elemento{
@@ -388,3 +438,4 @@ body{
     height: 243px;
     margin: -460px -622px;
 }
+
