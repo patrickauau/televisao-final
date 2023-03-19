@@ -46,9 +46,9 @@ body{
     height: 3240px;
     margin: -150px -918px;
     visibility: hidden;
-    z-index: -30;
+    z-index: -29;
+    
 }
-
 
 #chora{
     visibility: hidden;
