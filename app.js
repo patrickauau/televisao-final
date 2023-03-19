@@ -59,6 +59,7 @@ function desligar(){
     chora.currentTime = 0;
     chora.style.visibility = 'hidden'
 
+    
 }
 
 function canal1(){
